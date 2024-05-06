@@ -1,0 +1,87 @@
+/* Header Section */
+
+.header-section {
+  width: 351px;
+  height: 104px;
+  border-radius: 5px;
+
+  background: var(--gradient-accent, linear-gradient(180deg, #24afa5 0%, #35c6c3 100%));
+}
+
+.header-section > div {
+  height: 50%;
+  width: 100%;
+}
+
+.floating-logout-button {
+  position: fixed;
+}
+
+.prayer-name-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.prayer-precursor-text {
+  display: flex;
+  width: 113px;
+  height: 52px;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #000;
+  text-align: center;
+  font-family: Literata;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.prayer-name {
+  display: flex;
+  width: 51px;
+  height: 28px;
+  flex-direction: column;
+  justify-content: center;
+
+  color: var(--light-primary, #f7f5fb);
+  text-align: center;
+  font-family: b Bulan Rajab;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prayer-time-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prayer-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #000;
+  text-align: center;
+  font-family: Lobster;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prayer-time-titles {
+  display: flex;
+  /* width: 164px; */
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}

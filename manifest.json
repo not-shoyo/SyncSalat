@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Sync Salat Extension",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "permissions": [
+    "geolocation"
+  ],
+  "action": {
+    "default_popup": "popups/index_popup.html",
+    "default_icon": "images/icon-crescent_moon_ppl_masjid_sphere.png"
+  }
+}

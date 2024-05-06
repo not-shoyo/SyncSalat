@@ -1,0 +1,10 @@
+/* Bottom Section */
+
+.bottom-section {
+  width: 351px;
+  height: 95px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

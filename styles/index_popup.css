@@ -1,0 +1,489 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+body {
+  height: 564px;
+  width: 374px;
+
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Header Section */
+
+.header-section {
+  width: 351px;
+  height: 104px;
+  border-radius: 5px;
+
+  background: var(
+    --gradient-accent,
+    linear-gradient(180deg, #24afa5 0%, #35c6c3 100%)
+  );
+}
+
+.header-section > div {
+  height: 50%;
+  width: 100%;
+}
+
+.prayer-name-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.prayer-precursor-text {
+  display: flex;
+  width: 113px;
+  height: 52px;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #000;
+  text-align: center;
+  font-family: Literata;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.prayer-name {
+  display: flex;
+  width: 51px;
+  height: 28px;
+  flex-direction: column;
+  justify-content: center;
+
+  color: var(--light-primary, #f7f5fb);
+  text-align: center;
+  font-family: b Bulan Rajab;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prayer-time-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prayer-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #000;
+  text-align: center;
+  font-family: Lobster;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prayer-time-titles {
+  display: flex;
+  width: 164px;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+
+/* Middle Section */
+
+.middle-section {
+  width: 351px;
+  height: 264px;
+
+  border-radius: 5px;
+  background: var(
+    --dark-gradient,
+    linear-gradient(180deg, #8f6ee8 0%, #1b0e5b 100%)
+  );
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.own-prayers-section,
+.others-prayers-section {
+  height: 253px;
+  /* width: 164px; */
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Naming Pills */
+
+.own-prayer-pill-container,
+.others-prayer-pill-container {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.own-prayer-pill-container {
+  width: 54px;
+  height: 14px;
+}
+
+.others-prayer-pill-container {
+  width: 155px;
+  height: 14px;
+}
+
+.own-prayer-pill,
+.others-prayer-pill {
+  background-color: #ffffff;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.own-name,
+.others-name {
+  width: 50px;
+  height: 10px;
+
+  text-align: center;
+}
+
+.others-name {
+  width: 39px;
+  height: 10px;
+}
+
+/* Prayer List */
+
+.own-prayers,
+.others-prayers {
+  /* width: 162px; */
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 26px;
+}
+
+.own-prayers {
+  border-right: #f7f5fb 0.5px solid;
+}
+
+.others-prayers {
+  border-left: #f7f5fb 0.5px solid;
+}
+
+.own-prayer,
+.others-prayer {
+  display: flex;
+  width: 162px;
+  justify-content: center;
+  align-items: center;
+}
+
+.own-prayer {
+  gap: 8px;
+  align-self: stretch;
+}
+
+.others-prayer {
+  gap: 10px;
+}
+
+.own-prayer-name,
+.others-prayer-name {
+  display: flex;
+  width: 55px;
+  height: 19px;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  font-family: b Bulan Rajab;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.others-prayer-name {
+  flex-shrink: 0;
+}
+
+.own-prayer-time,
+.others-prayer-time {
+  display: flex;
+  width: 53px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 57px;
+  display: inline;
+
+  text-align: center;
+  font-family: Lobster;
+  font-size: 12px;
+  font-weight: 400;
+
+  color: #ffffff;
+}
+
+.others-prayer-time {
+  flex-shrink: 0;
+}
+
+.others-prayer-reminders {
+  width: 25px;
+  height: 11px;
+
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.others-prayer-reminder-1 {
+  opacity: 1;
+}
+.others-prayer-reminder-2 {
+  opacity: 1;
+}
+
+/* Bottom Section */
+
+.bottom-section {
+  width: 351px;
+  height: 95px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stats-section {
+  width: 171px;
+  height: 95px;
+  flex-shrink: 0;
+
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.streaks-heading {
+  display: flex;
+  width: 159px;
+  height: 14px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #000;
+  text-align: center;
+  font-family: Literata;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.stats-days,
+.stats-prayers {
+  width: 75px;
+  height: 75px;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; */
+}
+
+.stats-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stat-title {
+  display: flex;
+  width: 69px;
+  height: 10px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #000;
+  text-align: center;
+  font-family: Literata;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.stat-group {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 7px;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-label-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stat-current {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visualization-current {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+
+  border: #f1f500 2px solid;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-val {
+  display: flex;
+  width: 27px;
+  height: 13px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  color: #000;
+  text-align: center;
+  font-family: Lobster;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.stat-state {
+  display: flex;
+  width: 30px;
+  height: 4px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #000;
+  text-align: center;
+  font-family: Literata;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.stat-best {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.visualization-best {
+  display: flex;
+  width: 27px;
+  height: 13px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #000;
+  text-align: center;
+  font-family: Lobster;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Button Section */
+
+.prayer-button-section {
+  width: 351px;
+  height: 46px;
+
+  border-radius: 40.5px;
+  background: linear-gradient(180deg, #35c6c3 0%, #8f6ee8 100%);
+}
+
+.prayer-button-text {
+  display: flex;
+  width: 351px;
+  height: 46px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: var(--light-secondary, #fff);
+  text-align: center;
+  font-family: Lobster;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

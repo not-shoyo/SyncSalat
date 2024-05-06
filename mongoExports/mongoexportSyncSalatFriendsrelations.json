@@ -1,0 +1,5 @@
+{"_id":{"$oid":"658181174606bbd1cbc37cff"},"username":"sampleUser","friends":["sampleOtherUser1","sampleOtherUser2","sampleOtherUser3","sampleOtherUser4"],"__v":3}
+{"_id":{"$oid":"658181174606bbd1cbc37d13"},"username":"sampleOtherUser1","friends":["sampleOtherUser2","sampleUser"],"__v":3}
+{"_id":{"$oid":"658181174606bbd1cbc37d27"},"username":"sampleOtherUser2","friends":["sampleOtherUser4","sampleUser","sampleOtherUser1"],"__v":3}
+{"_id":{"$oid":"658181174606bbd1cbc37d3b"},"username":"sampleOtherUser3","friends":["sampleOtherUser4","sampleUser"],"__v":3}
+{"_id":{"$oid":"658181174606bbd1cbc37d4f"},"username":"sampleOtherUser4","friends":["sampleOtherUser2","sampleUser","sampleOtherUser3"],"__v":3}

@@ -1,0 +1,52 @@
+/* Naming Pills */
+
+.own-prayer-pill-container,
+.others-prayer-pill-container {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.own-prayer-pill-container {
+  width: 54px;
+  height: 14px;
+}
+
+.others-prayer-pill-container {
+  width: 155px;
+  height: 14px;
+}
+
+.own-prayer-pill,
+.others-prayer-pill {
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.own-name,
+.others-name {
+  width: 50px;
+  height: 10px;
+
+  cursor: pointer;
+
+  text-align: center;
+}
+
+.others-name {
+  width: 39px;
+  height: 10px;
+
+  cursor: pointer;
+}
+
+.selected-pill {
+  background-color: #ffffff;
+}
